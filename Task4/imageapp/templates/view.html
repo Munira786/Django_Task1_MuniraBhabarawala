@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Image</title>
+</head>
+<body>
+    <h2>Original Image</h2>
+    <img src="{{ image.original.url }}" width="300">
+
+    <h2>Black & White Image</h2>
+    <img src="{{ image.converted.url }}" width="300">
+
+    <br><br>
+    <a href="{{ image.converted.url }}" download>⬇ Download Black & White Image</a>
+</body>
+</html>

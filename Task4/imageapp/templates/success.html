@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Success</title>
+</head>
+<body>
+    <h2>Image Uploaded & Converted!</h2>
+    <p>
+        <strong>Original:</strong><br>
+        <img src="{{ image.original_image.url }}" width="200">
+    </p>
+    <p>
+        <strong>Black & White:</strong><br>
+        <img src="{{ image.bw_image.url }}" width="200">
+    </p>
+    <p>
+        <a href="{{ image.bw_image.url }}" download>⬇ Download BW Image</a>
+    </p>
+    <p>
+        <a href="{% url 'upload' %}">Upload Another Image</a>
+    </p>
+</body>
+</html>
