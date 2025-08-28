@@ -1,0 +1,18 @@
+#header {
+    background-color: #4CAF50 !important;  
+    color: white !important;
+}
+
+#branding h1 {
+    color: yellow !important;  
+}
+
+.module caption {
+    color: #FF5733 !important;
+    font-weight: bold;
+}
+
+body, #content-main {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
